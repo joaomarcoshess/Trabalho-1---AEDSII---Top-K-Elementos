@@ -18,9 +18,7 @@ int main()
   unordered_set<wstring> stopwords = f.getStopWords(loc);
   unordered_map <wstring, int> frequenceMap;
   
-
-  cout << "(Todos os arquivos devem ser nomeados como in1.data, in2.data...)" << endl;
-  cout << "Insira o número de arquivos a serem lidos: ";
+  f.Welcome();
   cin >> numFiles;
 
   auto start = chrono::high_resolution_clock::now();
@@ -70,7 +68,7 @@ int main()
     }
     else
     {
-      if(aux.second > minHeap[0].getFrequencia())
+      if(aux.second > minHeap[0].getRecorrencia())
       {
         pop_heap(minHeap.begin(), minHeap.end());
         minHeap.pop_back();
