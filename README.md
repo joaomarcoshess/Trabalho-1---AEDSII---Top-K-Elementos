@@ -115,3 +115,13 @@ Primeiro trabalho da disciplina AEDS II - Top K Elementos
 
 <h2>Funções do C++ </h2>
 
+
+
+
+<h2>Exemplos de Execução</h2>
+
+<p>Para realizar as execuções do programa, foram utilizados dois arquivos de exemplo de entrada, sendo um deles o livro Dom Casmurro.</p>
+
+
+
+
