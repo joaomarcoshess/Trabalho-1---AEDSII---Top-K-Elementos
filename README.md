@@ -132,6 +132,21 @@ Primeiro trabalho da disciplina AEDS II - Top K Elementos
 </p><br>
 
 <p>A seguir, foram realizadas duas execuções do programa, uma com apenas um arquivo, e outra com dois arquivos:</p>
-
-
 <p>Obs: O usuário pode escolher quantos arquivos serão lidos:</p>
+
+<p align="center">
+  <img src="img/img3.jpg">
+<p align="center"><b>Figura 3 - Teste com um arquivo </b></p>
+</p><br>
+
+<p align="center">
+  <img src="img/img4.jpg">
+<p align="center"><b>Figura 4 - Teste com dois arquivos </b></p>
+</p><br>
+
+<p>Por fim, ao final de cada teste é possível ver a latência do programa:</p>
+
+<p align="center">
+  <img src="img/img5.jpg">
+<p align="center"><b>Figura 5 - Latência do programa </b></p>
+</p><br>
