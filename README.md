@@ -150,3 +150,27 @@ Primeiro trabalho da disciplina AEDS II - Top K Elementos
   <img src="img/img5.jpg">
 <p align="center"><b>Figura 5 - Latência do programa </b></p>
 </p><br>
+
+<p>Portanto, com os exemplos mostrados acima, fica evidente que o heap segue uma organização de heap mínimo, onde o valor do nó pai é inferior aos seus filhos da direita e da esquerda. Essa estrutura obedece à regra de que o filho esquerdo se encontra na posição 2i e o filho direito na posição 2i+1, em relação ao nó pai. Além disso, é possível constatar que as palavras elencadas na saída do programa correspondem às k palavras mais recorrentes nos textos.</p>
+
+<h2>Compilação e Execução do Programa</h2>
+
+<p>Através do makefile, é posição utilizar comandos que realizam o processo de compilação e execução do programa. A seguir, temos alguns comandos que podem ser utilizados:</p><br>
+
+<li><b>make</b>: Realiza a compilação do código por meio do gcc, no qual o resultado vai para a pasta build.</li><br>
+<li><b>make run</b>: Executa o programa armazenado na pasta build após este ser compilado.</li><br>
+<li><b>make clean</b>: Exclui a última compilação feita anteriormente na pasta build.</li><br><br>
+
+<p>Também é possível executar o programa através do site de hospedagem de código, Replit, onde foi realizado a programação do código: <link>https://replit.com/@Joao-MarcosMa57/Trabalho-1-AEDS</link></p>
+
+
+
+<h2>Conclusão</h2>
+
+<p>A abordagem proposta para resolver o problema dos "top k itens" demonstra claramente a aplicação prática das estruturas de hash e heap. A busca eficiente dos k elementos mais valiosos em conjuntos de dados é essencial em análise de informações. A integração estratégica de tabelas de hash e heaps otimiza essa busca, oferecendo uma solução escalável com complexidade O(n log k) para identificar as k palavras mais frequentes em textos.</p>
+
+<p>Este repositório apresenta um algoritmo que exemplifica a identificação dos k elementos mais frequentes em uma coleção de texto. A combinação de tabelas de hash para calcular frequências e heaps para gerenciar os elementos mais relevantes destaca a utilidade dessas estruturas. Com um tempo de execução eficiente, o algoritmo se destaca por sua capacidade de lidar com grandes volumes de dados. A decisão de usar alocação dinâmica de memória e a escolha estratégica de um heap mínimo para otimizar a remoção de elementos menos frequentes reforçam a abordagem eficaz desse algoritmo. Logo, se mostrou um algoritmo poderoso para abordar o problema em questão.</p>
+
+<h2>Contato</h2>
+
+<p><i>marcosjoaohess@gmail.com</i></p>
