@@ -40,6 +40,7 @@ Primeiro trabalho da disciplina AEDS II - Top K Elementos
 ``` Comparação e Atualização: ```
 
 <p>Para cada elemento restante na tabela de hash:</p>
+
 - Comparação da contagem com o menor valor do heap (elemento de menor frequência).
 - Se a contagem for maior do que o menor valor do heap, substituição do elemento no heap.
 - Manutenção da lista dos k itens de maior valor atualizada.
