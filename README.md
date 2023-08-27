@@ -37,6 +37,57 @@ Primeiro trabalho da disciplina AEDS II - Top K Elementos
 - Inserção dos primeiros k elementos da tabela de hash em um heap de tamanho k.
 - Criação de uma estrutura inicial de itens mais valiosos.
 
+``` Comparação e Atualização: ```
+
+<p>Para cada elemento restante na tabela de hash:</p>
+- Comparação da contagem com o menor valor do heap (elemento de menor frequência).
+- Se a contagem for maior do que o menor valor do heap, substituição do elemento no heap.
+- Manutenção da lista dos k itens de maior valor atualizada.
+
+
+``` Impressão dos Resultados: ```
+
+- Ao final, a heap conterá os k elementos com maiores valores (frequências).
+
+``` Valor k: ```
+
+- Predefinido como 20 para criar uma hash com apenas 20 elementos.
+
+``` Inicialização do Programa: ```
+
+- Leitura das stopwords e adição em um unordered_set.
+- Leitura do arquivo de entrada de forma binária para alocação na memória.
+
+``` Tratamento de Caracteres Especiais: ```
+
+- Uso da codificação UTF-8 para lidar com caracteres especiais.
+- Aplicação da função tolower() para eliminar a sensibilidade a maiúsculas/minúsculas.
+
+``` Principais Funções para Heap: ```
+
+- make_heap: Montagem do heap com todos os k elementos.
+- push_heap: Adição de novo elemento ao heap, mantendo propriedades.
+- pop_heap: Remoção do topo do heap e reorganização.
+
+``` Criação da Hash com unordered_map: ```
+
+- Armazenamento eficiente de pares chave-valor.
+- Acesso rápido aos valores baseados nas chaves.
+
+``` Leitura e Construção das Palavras: ```
+
+- Leitura de caractere por caractere para construir palavras.
+- Identificação do final de palavra pelo "\n" ou sentenças terminadoras (".", "!", "?").
+
+``` Tratamento de Caracteres não Incluídos nas Palavras: ```
+
+- Exclusão de caracteres como ",", "(", ")", ";", "/", ":", "—", "", "'", entre outros.
+
+``` Verificação de Stopwords:: ```
+
+- Descarte das palavras que são stopwords.
+- Inclusão na hash das palavras não stopwords, com frequência como valor associado.
+
 <h2>Implementação </h2>
 
 
