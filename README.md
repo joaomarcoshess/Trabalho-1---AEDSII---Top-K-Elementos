@@ -192,7 +192,7 @@ Primeiro trabalho da disciplina AEDS II - Top K Elementos
 
 <p>A abordagem proposta para resolver o problema dos "top k itens" demonstra claramente a aplicação prática das estruturas de hash e heap. A busca eficiente dos k elementos mais valiosos em conjuntos de dados é essencial em análise de informações. A integração estratégica de tabelas de hash e heaps otimiza essa busca, oferecendo uma solução escalável com complexidade O(n log k) para identificar as k palavras mais frequentes em textos.</p>
 
-<p>Este repositório apresenta um algoritmo que exemplifica a identificação dos k elementos mais frequentes em uma coleção de texto. A combinação de tabelas de hash para calcular frequências e heaps para gerenciar os elementos mais relevantes destaca a utilidade dessas estruturas. Com um tempo de execução eficiente, o algoritmo se destaca por sua capacidade de lidar com grandes volumes de dados. A decisão de usar alocação dinâmica de memória e a escolha estratégica de um heap mínimo para otimizar a remoção de elementos menos frequentes reforçam a abordagem eficaz desse algoritmo. Logo, se mostrou um algoritmo poderoso para abordar o problema em questão.</p>
+<p> A combinação de tabelas de hash para calcular frequências e heaps para gerenciar os elementos mais relevantes destaca a utilidade dessas estruturas. Com um tempo de execução eficiente, o algoritmo se destaca por sua capacidade de lidar com grandes volumes de dados. A decisão de usar alocação dinâmica de memória e a escolha estratégica de um heap mínimo para otimizar a remoção de elementos menos frequentes reforçam a abordagem eficaz desse algoritmo. Logo, se mostrou um algoritmo poderoso para abordar o problema em questão.</p>
 
 <h2>Contato</h2>
 
