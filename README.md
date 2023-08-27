@@ -123,7 +123,7 @@ Primeiro trabalho da disciplina AEDS II - Top K Elementos
 <p>Para realizar as execuções do programa, foram utilizados dois arquivos de exemplo de entrada, sendo um deles o livro Dom Casmurro.</p>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/75141271/227566320-ef75b40d-96f1-454e-ad76-6398206efc71.jpg">
+  <img src="img/img1.jpg">
 <p align="center"><b>Figura 1 - Matrizes</b></p>
 </p><br>
 
