@@ -124,8 +124,14 @@ Primeiro trabalho da disciplina AEDS II - Top K Elementos
 
 <p align="center">
   <img src="img/img1.jpg">
-<p align="center"><b>Figura 1 - Matrizes</b></p>
+<p align="center"><b>Figura 1 - Dom Casmurro</b></p>
+</p><br>
+<p align="center">
+  <img src="img/img2.jpg">
+<p align="center"><b>Figura 2 - Arquivo 2(in2.data) </b></p>
 </p><br>
 
+<p>A seguir, foram realizadas duas execuções do programa, uma com apenas um arquivo, e outra com dois arquivos:</p>
 
 
+<p>Obs: O usuário pode escolher quantos arquivos serão lidos:</p>
